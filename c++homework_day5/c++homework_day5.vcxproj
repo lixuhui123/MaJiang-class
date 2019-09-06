@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -118,6 +119,8 @@
     <ClCompile Include="商品类.cpp" />
     <ClCompile Include="对照.cpp" />
     <ClCompile Include="日期类.cpp" />
+    <ClCompile Include="源.cpp" />
+    <ClCompile Include="重写日期类.cpp" />
     <ClCompile Include="麻将类.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

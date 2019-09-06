@@ -27,5 +27,11 @@
     <ClCompile Include="麻将类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="重写日期类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
